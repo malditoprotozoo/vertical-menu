@@ -1,0 +1,57 @@
+body {
+	font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+	text-shadow: 1px 1px #FFC107;
+}
+
+ul {
+	margin-top: 0;
+	width: 615px;
+	height: 338px;
+	list-style-type: none;
+	background-color: #E6E6E1;
+	display: inline-block;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: 20px;
+}
+
+li {
+	height: 20%;
+	padding-left: 8px;
+	line-height: 67.6px;
+}
+
+
+li:hover {
+	background-color: #ADADAD;
+}
+
+li:first-child {
+	background-color: #FFC107;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li:first-child:hover {
+	background-color: #ADADAD;
+	color: black;
+}
+
+#footer {
+	width: 100%;
+	font-size: 12px;
+	display: inline-block;
+	padding: 0;
+	font-family: "Ubuntu Mono", monospace;
+}
+
+#institution {
+	background-color: #F9A91A;
+}
